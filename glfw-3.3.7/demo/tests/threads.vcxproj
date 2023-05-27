@@ -62,7 +62,7 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;GLFW_DLL</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>libtinycthread.lib;libgetopt.lib;libglad.lib;glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
@@ -86,7 +86,7 @@
       </DebugInformationFormat>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>libtinycthread.lib;libgetopt.lib;libglad.lib;glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
@@ -98,11 +98,7 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\hanwenzhi_code\glfw\backup\glfw-3.3.7\tests\threads.c" />
-    <ClInclude Include="E:\hanwenzhi_code\glfw\backup\glfw-3.3.7\deps\tinycthread.h" />
-    <ClCompile Include="E:\hanwenzhi_code\glfw\backup\glfw-3.3.7\deps\tinycthread.c" />
-    <ClInclude Include="E:\hanwenzhi_code\glfw\backup\glfw-3.3.7\deps\glad\gl.h" />
-    <ClCompile Include="E:\hanwenzhi_code\glfw\backup\glfw-3.3.7\deps\glad_gl.c" />
+    <ClCompile Include="threads.c" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
