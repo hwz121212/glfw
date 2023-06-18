@@ -49,7 +49,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)thirdparty\glfw-3.3.7\include;$(SolutionDir)thirdparty\glad\include;$(SolutionDir)thirdparty\getopt;$(SolutionDir)thirdparty\tinycthread-1.2\include;$(SolutionDir)thirdparty\stb_image_write-v1.16</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)thirdparty\glfw-3.3.7\include;$(SolutionDir)thirdparty\glad-2.0.0\include;$(SolutionDir)thirdparty\getopt;$(SolutionDir)thirdparty\tinycthread-1.2\include;$(SolutionDir)thirdparty\stb_image_write-v1.16</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -73,7 +73,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)thirdparty\glfw-3.3.7\include;$(SolutionDir)thirdparty\glad\include;$(SolutionDir)thirdparty\getopt;$(SolutionDir)thirdparty\tinycthread-1.2\include;$(SolutionDir)thirdparty\stb_image_write-v1.16</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)thirdparty\glfw-3.3.7\include;$(SolutionDir)thirdparty\glad-2.0.0\include;$(SolutionDir)thirdparty\getopt;$(SolutionDir)thirdparty\tinycthread-1.2\include;$(SolutionDir)thirdparty\stb_image_write-v1.16</AdditionalIncludeDirectories>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>

@@ -168,7 +168,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_lib", "0_lib", "{2467AAA6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_dll", "1_dll", "{E3ED0E76-0F2A-4CFB-B938-AA70076ABBDF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libglad", "thirdparty\glad\libglad.vcxproj", "{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libglad", "thirdparty\glad-2.0.0\libglad.vcxproj", "{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
