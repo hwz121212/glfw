@@ -457,7 +457,7 @@ static void draw_particles(GLFWwindow* window, double t, float dt)
             thread_sync.p_frame <= thread_sync.d_frame)
     {
         struct timespec ts;
-        //clock_gettime(CLOCK_REALTIME, &ts);
+        clock_gettime(CLOCK_REALTIME, &ts);
         ts.tv_nsec += 100 * 1000 * 1000;
         ts.tv_sec += ts.tv_nsec / (1000 * 1000 * 1000);
         ts.tv_nsec %= 1000 * 1000 * 1000;
@@ -909,8 +909,8 @@ static int physics_thread_main(void* arg)
         while (!glfwWindowShouldClose(window) &&
                thread_sync.p_frame > thread_sync.d_frame)
         {
-            struct timespec ts;	
-           // clock_gettime(CLOCK_REALTIME, &ts);
+            struct timespec ts;
+            clock_gettime(CLOCK_REALTIME, &ts);
             ts.tv_nsec += 100 * 1000 * 1000;
             ts.tv_sec += ts.tv_nsec / (1000 * 1000 * 1000);
             ts.tv_nsec %= 1000 * 1000 * 1000;

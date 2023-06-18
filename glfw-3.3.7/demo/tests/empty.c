@@ -50,7 +50,7 @@ static int thread_main(void* data)
 
     while (running)
     {
-        //clock_gettime(CLOCK_REALTIME, &time);
+        clock_gettime(CLOCK_REALTIME, &time);
         time.tv_sec += 1;
         thrd_sleep(&time, NULL);
 
